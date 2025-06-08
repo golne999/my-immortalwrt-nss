@@ -1,0 +1,5 @@
+src-git packages https://github.com/immortalwrt/packages
+src-git luci https://github.com/immortalwrt/luci
+src-git routing https://github.com/immortalwrt/routing
+src-git telephony https://github.com/immortalwrt/telephony
+src-git nss-packages https://github.com/qosmio/nss-packages.git

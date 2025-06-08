@@ -27,3 +27,8 @@ for COMMIT in "${COMMITS[@]}"; do
     exit 1
   }
 done
+
+# 3. 更新 feeds
+./scripts/feeds clean
+./scripts/feeds update -a
+./scripts/feeds install -a
